@@ -58,8 +58,8 @@ public class RobotContainer {
             () -> hopper.extend(),
             hopper::retract,
             hopper
-    )
-);
+            )
+        );
     }
 
     public Command getAutonomousCommand() {
